@@ -1,0 +1,84 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+	.container{width:100%;}
+.header_area {
+	background: url("images/headerareabg_tab.jpg") no-repeat scroll 0px 0px;
+}
+.logo {
+	
+	float: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.menu {float: left;}
+ul#nav li {padding-left: 15px;}
+ul#nav li:last-child {display: none;}
+.header_bottom {padding-top: 140px;padding-bottom: 100px;}
+.header_bottom h1,.header_bottom h6 {margin-left: 30px;}
+.slider_info {width: 40%;padding: 10px;}
+.single_info {margin-bottom: 10px;padding-left: 60px;}
+.single_info img {width: 50px !important;height: 50px;}
+.feature_middle {padding-left: 10%;}
+.feature_bottom {margin-top: 30px;padding: 4%;}
+.single_feature_middle h1 {width: 100%;font-size: 50px;}
+.single_feature_bottom {width: 46%;display: block;margin-right: 0;}
+.single_feature_bottom_img img {width: 60px;height: 60px;margin-bottom: 20px;}
+.build_it_area p {width: 60%;}
+.slider_area {padding: 30px;}
+.single_quote p {padding: 30px;font-size: 16px;}
+.join_area h1 {width: 90%;font-size: 35px;}
+.price {display: block;}
+.single_price {padding: 30px;}
+.single_price p {padding: 10px;text-align: justify;}
+.footer_top h1 {font-size: 55px;}
+.footer_area {background: url("images/footer_tab.jpg") no-repeat scroll 0px 0px;padding-bottom: 10px;}
+.single_footer_bottom_middle {margin-right: 20px;width: 27%;}
+.footer_bottom {padding: 30px;width: 85%;margin: 0 auto;margin-top: 100px;}
+.footer_bottom_left {margin-right: 15px;float: left;}
+.footer_bottom_right {float: right;width: 120px;}
+.social_links ul li {margin-left: 15px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+.container{width:100%;}
+.header_area {
+	background: url("images/headerareabg_tab.jpg") no-repeat scroll 0px 0px;
+}
+.logo {padding-left: 2%;}
+ul#nav li {padding-left: 15px;}
+.menu button {margin-right: 15px;}
+.header_bottom {padding-top: 140px;padding-bottom: 200px;}
+.header_bottom h1,.header_bottom h6 {margin-left: 30px;}
+.slider_info {width: 40%;padding: 10px;}
+.single_info {margin-bottom: 10px;padding-left: 60px;}
+.single_info img {width: 50px !important;height: 50px;}
+.feature_middle {padding-left: 10%;}
+.feature_bottom {margin-top: 30px;padding: 4%;}
+.single_feature_middle h1 {width: 100%;font-size: 50px;}
+.single_feature_bottom {width: 47%;display: block;margin-right: 0;}
+.single_quote p {padding: 30px;font-size: 16px;}
+.join_area h1 {width: 90%;font-size: 45px;}
+.single_price p {padding: 10px;text-align: justify;}
+.footer_top h1 {font-size: 55px;}
+.footer_area {background: url("images/footer_tab.jpg") no-repeat scroll 0px 0px;padding-bottom: 10px;}
+.single_footer_bottom_middle {margin-right: 20px;width: 27%;}
+.footer_bottom {padding: 30px;width: 85%;margin: 0 auto;margin-top: 100px;}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{}
+}
